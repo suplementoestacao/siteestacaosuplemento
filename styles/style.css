@@ -1,0 +1,79 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Pangolin&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.fundo__logo_pagina1{
+    background-image: url("../img/logoedit_Easy-Resize.com\ \(1\)-PhotoRoom.png-PhotoRoom.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:160px ;
+    height:160px;
+    background-position: center;
+    margin-top: 4em;
+}
+.header{
+    display: inline-flex;
+    align-items: center;
+}
+.titulo{
+    margin-top: 1em;
+    text-align: center;
+    font-size:1.6em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.paragrafo{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 0.8em;
+    margin-bottom: 2em;
+}
+.categorias{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-bottom: 1.8em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 1.2em;
+    color: black;
+}
+.item1{
+    gap: 1em;
+    padding: 1em 2.6em;
+}
+.item2{
+text-decoration: none;
+text-transform: uppercase;
+color: black;
+}
+.div-item2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1.2em;
+    padding: 1em 2.5em;
+}
+.icone{
+    margin-right: 3em;
+}
+.item3{
+    margin-top: 1.8em;
+    gap:2em;
+    padding: 1em 2.75em;
+}
+footer{
+    margin-top: 2em;
+    text-align: center;
+    font-weight: 600;
+}
+.titulo2_footer{
+    margin-top: 0.5em;
+}
